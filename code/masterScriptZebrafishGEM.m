@@ -10,7 +10,7 @@
 
 
 %% Load Human-GEM as template
-load('Human-GEM.mat');  % version 1.5.0
+load('Human-GEM.mat');
 
 
 % convert gene identifiers from Ensembl ids to gene symbols
