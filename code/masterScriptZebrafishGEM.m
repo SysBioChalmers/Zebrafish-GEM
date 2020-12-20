@@ -70,7 +70,7 @@ rxnsToAdd.subSystems = cellfun(@(s) {{s}}, rxnsToAdd.subSystems);
 
 
 %% Gap-filling for biomass formation
-[zebrafishGEM, gapfillNetwork]=gapfill4Biomass(zebrafishGEM,ihuman);
+[zebrafishGEM, gapfillNetwork]=gapfill4EssentialTasks(zebrafishGEM,ihuman);
 % Added 1 reaction for gap-filling
 
 
