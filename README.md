@@ -77,5 +77,4 @@ Manuscript under preparation
 ### Contributing
 
 Contributions are always welcome! Please read the [contributing guidelines](.github/CONTRIBUTING.md) to get started.
-Code contributors are reported automatically by GitHub under [Contributors](https://github.com/{{organization or username}}/{{repository name}}/graphs/contributors), while other contributions come in as [Issues](https://github.com/{{organization or username}}/{{repository name}}/issues).
 
