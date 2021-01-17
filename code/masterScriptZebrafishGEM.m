@@ -78,6 +78,6 @@ rxnsToAdd.subSystems = cellfun(@(s) {{s}}, rxnsToAdd.subSystems);
 
 zebrafishGEM.id = 'Zebrafish-GEM';
 save('../model/Zebrafish-GEM.mat', 'zebrafishGEM');
-writeHumanYaml(zebrafishGEM, '../model/Zebrafish-GEM.mat');
+writeHumanYaml(zebrafishGEM, '../model/Zebrafish-GEM.yml');
 exportModel(zebrafishGEM, '../model/Zebrafish-GEM.xml');
 
