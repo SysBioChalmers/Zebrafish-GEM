@@ -45,5 +45,4 @@ end
 
 save('../model/Zebrafish-GEM.mat', 'zebrafishGEM');
 exportYaml(zebrafishGEM, '../model/Zebrafish-GEM.yml');
-exportModel(zebrafishGEM, '../model/Rat-GEM.xml');
-
+exportModel(zebrafishGEM, '../model/Zebrafish-GEM.xml');
