@@ -36,7 +36,7 @@ Manuscript under preparation
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Danio rerio_ |   Human-GEM |  12956  | 8384 | 3228 |
+|_Danio rerio_ |   Human-GEM |  12940  | 8362 | 3231 |
 
 
 ## Installation
