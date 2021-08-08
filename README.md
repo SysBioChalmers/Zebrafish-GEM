@@ -52,7 +52,7 @@ This repository contains the latest version of Zebrafish-GEM, a zebrafish genome
 
 
 ### Installation Instructions
-* Clone the [master branch](https://github.com/SysBioChalmers/Zebrafish-GEM/tree/master) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Zebrafish-GEM/releases/latest).
+* Clone the [main branch](https://github.com/SysBioChalmers/Zebrafish-GEM/tree/main) of this repository, or [download the latest release](https://github.com/SysBioChalmers/Zebrafish-GEM/releases/latest).
 * Add the directory to your MATLAB path (instructions [here](https://se.mathworks.com/help/matlab/ref/addpath.html?requestedDomain=www.mathworks.com)).
 
 
@@ -60,7 +60,7 @@ This repository contains the latest version of Zebrafish-GEM, a zebrafish genome
 
 #### Loading/saving the model
 
-`Zebrafish-GEM.mat` (Recommended if on `master` branch)
+`Zebrafish-GEM.mat` (Recommended if on `main` branch)
 * Load and save using the built-in MATLAB `load()` and `save()` functions.
 
 `Zebrafish-GEM.xml` (SBML format)
