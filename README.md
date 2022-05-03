@@ -35,7 +35,7 @@ This repository contains the latest version of Zebrafish-GEM, a zebrafish genome
 
 |Taxonomy | Template Model | Reactions | Metabolites| Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-|_Danio rerio_ |   Human-GEM |  12940  | 8362 | 3231 |
+|_Danio rerio_ |   Human-GEM |  12909  | 8344 | 2714 |
 
 
 ## Installation
