@@ -43,6 +43,9 @@ if isequal(rxnAssoc.rxns, zebrafishGEM.rxns) && isequal(metAssoc.mets, zebrafish
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+zebrafishGEM = annotateGEM(zebrafishGEM,'../model',{'rxn','met'});  % add annotation data to structure
+zebrafishGEM.id = regexprep(zebrafishGEM.id,'-','');  % remove dash from model ID since it causes problems with SBML I/O
 save('../model/Zebrafish-GEM.mat', 'zebrafishGEM');
 exportYaml(zebrafishGEM, '../model/Zebrafish-GEM.yml');
 exportModel(zebrafishGEM, '../model/Zebrafish-GEM.xml');
+
