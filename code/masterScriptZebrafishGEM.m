@@ -18,7 +18,7 @@ addpath(genpath('../../Zebrafish-GEM/'));
 %% Prepare Zebrafish ortholog pairs and species-specific network
 
 % get ortholog pairs from human to zebrafish
-zebrafishOrthologPairs = extractAllianceGenomeOrthologs('human2ZebrafishOrthologs.json');
+zebrafishOrthologPairs = extractAllianceGenomeOrthologs('human2ZebrafishOrthologs.tsv');
 
 % load species-specific rxns and mets
 rxnsToAdd = importTsvFile('zebrafishSpecificRxns.tsv');
