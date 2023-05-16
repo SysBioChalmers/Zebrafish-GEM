@@ -43,6 +43,7 @@ if isequal(rxnAssoc.rxns, zebrafishGEM.rxns) && isequal(metAssoc.mets, zebrafish
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+zebrafishGEM.geneShortNames = zebrafishGEM.genes;
 save('../model/Zebrafish-GEM.mat', 'zebrafishGEM');
 exportYaml(zebrafishGEM, '../model/Zebrafish-GEM.yml');
 zebrafishGEM = annotateGEM(zebrafishGEM,'../model',{'rxn','met'});  % add annotation data to structure
