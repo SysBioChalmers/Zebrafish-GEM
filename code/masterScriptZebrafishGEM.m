@@ -18,7 +18,7 @@ addpath(genpath('../../Zebrafish-GEM/'));
 %% Prepare Zebrafish ortholog pairs and species-specific network
 
 % get ortholog pairs from human to zebrafish
-zebrafishOrthologPairs = extractAllianceGenomeOrthologs('human2ZebrafishOrthologs.json');
+zebrafishOrthologPairs = extractAllianceGenomeOrthologs('human2ZebrafishOrthologs.tsv');
 
 % load species-specific rxns and mets
 rxnsToAdd = importTsvFile('zebrafishSpecificRxns.tsv');
@@ -43,6 +43,7 @@ if isequal(rxnAssoc.rxns, zebrafishGEM.rxns) && isequal(metAssoc.mets, zebrafish
     exportTsvFile(metAssoc,'../model/metabolites.tsv');
 end
 
+zebrafishGEM.geneShortNames = zebrafishGEM.genes;
 save('../model/Zebrafish-GEM.mat', 'zebrafishGEM');
 exportYaml(zebrafishGEM, '../model/Zebrafish-GEM.yml');
 zebrafishGEM = annotateGEM(zebrafishGEM,'../model',{'rxn','met'});  % add annotation data to structure
