@@ -27,7 +27,7 @@ metsToAdd = importTsvFile('zebrafishSpecificMets.tsv');
 
 %% Generate Zebrafish-GEM
 [zebrafishGEM, speciesSpecNetwork, gapfillNetwork]=updateAnimalGEM(...
-    zebrafishOrthologPairs,rxnsToAdd,metsToAdd,'Zebrafish-GEM');
+    zebrafishOrthologPairs,rxnsToAdd,metsToAdd,'Zebrafish-GEM',true);
 
 
 %% Update annotations
