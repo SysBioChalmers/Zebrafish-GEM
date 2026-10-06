@@ -134548,6 +134548,9 @@
       - MAM03082c: 43.0
     - lower_bound: 0.0
     - upper_bound: 1000.0
+    - subsystem:
+      - Protein assembly
+    - confidence_score: 0.0
     - notes: reaction added by gap filling
   - !!omap
     - id: MAR05152

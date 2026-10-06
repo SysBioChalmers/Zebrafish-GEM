@@ -360486,6 +360486,7 @@
       <reaction metaid="meta_R_MAR05151" sboTerm="SBO:0000176" id="R_MAR05151" name="albumin (glycyl-tRNA(gly))" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <notes>
           <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>confidence_score: 0.0</p>
             <p>note: reaction added by gap filling</p>
           </html>
         </notes>
